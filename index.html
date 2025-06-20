@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BroCode</title>
+  </head>
+  <body>
+    <h1>Welcome to BroCode</h1>
+    <p>This is a simple HTML page.</p>
+    <script>
+      console.log("Hello, BroCode!");
+    </script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+      }
+      h1 {
+        color: #007bff;
+      }
+    </style>
+    <footer>
+      <p>&copy; 2023 BroCode. All rights reserved.</p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("Document is ready!");
+      });
+      window.addEventListener("load", function () {
+        console.log("Window is fully loaded!");
+      });
+      document.querySelector("h1").addEventListener("click", function () {
+        alert("You clicked the heading!");
+      });
+      document.querySelector("p").addEventListener("mouseover", function () {
+        this.style.color = "blue";
+      });
+      document.querySelector("p").addEventListener("mouseout", function () {
+        this.style.color = "black";
+      });
+      document.querySelector("footer").style.textAlign = "center";
+      document.querySelector("footer").style.marginTop = "20px";
+      document.querySelector("footer").style.fontSize = "0.8em";
+      document.querySelector("footer").style.color = "#666";
+      document.querySelector("footer").style.backgroundColor = "#f8f9fa";
+      document.querySelector("footer").style.padding = "10px";
+      document.querySelector("footer").style.borderTop = "1px solid #ddd";
+    </script>
+  </footer>
+  </body>
+</html>
